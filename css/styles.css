@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+h1, button {
+    margin: 0;
+}
+
+main {
+    margin: 50px 10px 10px 10px;
+    width: 420px;
+    height: auto;
+    padding: 40px;
+    box-sizing: border-box;
+    display: block;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+#AddForm {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.DeleteSubmit {
+    float: right;
+    color: #90ee90;
+    border: 2px solid #90ee90;
+    padding: 5px 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.DeleteSubmit:hover {
+    cursor: pointer;
+    background-color: #90ee90;
+    color: white;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+td {
+    padding: 5px 0;
+}
+
+hr {
+    width: 100%;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    border: 0;
+    height: 3px;
+}

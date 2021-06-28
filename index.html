@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- To run this: start Apache and MySQL in XAMPP and navigate to http://localhost/todo-list/ -->
+
+    <main>
+        <div class="header">
+            <h1>To-Do List</h1>
+        </div>
+        <hr>
+        <div id="AddForm">
+            <label for="AddInput">Add a new item</label><br>
+            <input id="AddInput" type="text">
+            <button id="AddSubmit" type="submit">Submit</button>
+        </div>
+        <hr>
+        <div class="list">
+            <table id="ToDoTable"></table>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
